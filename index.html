@@ -27,12 +27,38 @@
         program nombre_del_programa;
         </code>
         </pre>        
+        <p>Después de declarar el nombre del programa, se utiliza la palabra reservada <strong>var</strong>, la cual permite definir las variables que empleará el código.<br>(<em>Estas deben declararse siempre antes del bloque principal</em>)</p>
+        <p>Dentro de Pascal existen varios tipos de variables; entre ellos destacan los siguientes:</p>
+        <ul>
+            <li><strong>Integer</strong>: Es un tipo de dato de numero entero. (<em>sin decimales</em>)
+
+            </li>
+            <li><strong>String</strong>: Es un tipo de dato cadena de caracteres. (<em>nombres, apellidos, caracteres y incluso numeros.</em>)
+
+            </li> 
+            <li><strong>Char</strong>: Es un tipo de dato de caracter.(<em>todos los caracteres que soporta pascal estan determinadas por la tabla asci</em>)
+
+            </li> 
+            <li><strong>Real</strong>: Es un tipo de dato numerico real, que toma decimales.(<em>puede tener problemas al tomar datos de tipo entero, en esos caso mejor usar <strong>integer</strong></em>)
+
+            </li> 
+        </ul>
+        <pre><code>
+
+        program declaracion_de_variables;
+        var
+        num:integer;
+        prom:real;
+        texto:string;
+        letra:char;
+
+        </code></pre>
         <p>La estructura base del codigo en <strong>PASCAL</strong> comienza con la palabra reservada <strong>begin</strong>,<br> que marca el inicio de la ejecución del programa.<br>(<em>en este caso no se uso el <strong>;</strong> ya que <strong>begin</strong> no es una instruccion como tal, es un delimitador que marca donde inicia un programa</em>)</p>
             <pre><code>
         program HolaMundo;
         begin
-        </code></pre>
-        
+            </code></pre>
+
     <ol>
         <li>
             Estructuras de control
@@ -40,8 +66,7 @@
              <ul>
                 <li>
                     <strong>IF</strong>
-                    <p>Es una estructura de control booliana que compara condiciones.</p>
-                    
+                </li>    
             </ul>
     </ol>        
 </body>
